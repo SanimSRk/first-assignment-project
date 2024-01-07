@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.content {
+  width: 82%;
+  margin: 0 auto;
+}
+
+/*header areya */
+
+.banner {
+  margin-top: 41px;
+  background-image: url(image/Banner\ Image.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.banner_2 {
+  background-image: url(image/Rectangle\ 15.png);
+  background-size: 100%;
+}
+.banner_titei {
+  padding: 146px 282px;
+  text-align: center;
+}
+.banner_titex_descoption {
+  font-size: 27px;
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+.banner_titel_text {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 800px;
+  font-style: normal;
+}
+
+/*main areya styel*/
+
+.section_header {
+  text-align: center;
+  margin-top: 98px;
+}
+.sectin_titel {
+  font-size: 60px;
+  color: #f00;
+  font-weight: 700px;
+  font-style: normal;
+}
+
+.section_des {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f00;
+  margin-top: 40px;
+}
+
+.titel_areya {
+  margin-top: 7px;
+  color: #070211;
+  font-size: 40px;
+}
+.section_img img {
+  width: 600px;
+  height: 410px;
+  margin-top: 40px;
+}
+
+/* section party styel */
+.section_parent {
+  background-image: url(image/Vectorrr.png);
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.child_back_img {
+  background-image: url(image/Rectangle\ 15.png);
+  display: flex;
+  align-items: center;
+  background-size: 100%;
+}
+.section_child_text {
+  padding: 0 103px 0 77px;
+}
+.section_child {
+  margin-right: 114px;
+  padding: 56px 0;
+}
+.section_child img {
+  width: 262px;
+  height: 380px;
+}
+.section_parent_titel {
+  font-size: 52px;
+  font-weight: 800px;
+  font-style: normal;
+  letter-spacing: 6px;
+  color: #fff;
+}
+.child_descoption {
+  font-size: 15px;
+  font-weight: 400px;
+  font-style: normal;
+  color: #dddd;
+  margin-top: 20px;
+}
+
+.Join_btn {
+  font-size: 20px;
+  font-weight: 700px;
+  border: none;
+  color: #fff;
+  margin-top: 40px;
+  font-style: normal;
+  margin-left: 20px;
+}
+/*place section styel*/
+
+.place_content {
+  text-align: center;
+  font-size: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 82px 0;
+  font-weight: 600px;
+}
+.span_text {
+  color: #f00;
+}
+.join_button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: #f00;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 40px;
+}
