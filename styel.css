@@ -226,27 +226,41 @@
   margin-top: 20px;
 }
 
-.holiday_img_areya {
+.child_holiday {
   display: flex;
-  background-image: url(image/Rectangle\ 1.png);
-  align-items: center;
-  background-size: 20%;
-  background-repeat: no-repeat;
+  align-items: end;
+  justify-content: space-between;
+}
+.holiday_titel_img {
+  display: flex;
+  justify-content: center;
+}
+.holiday_titel_img img {
+  width: 100%;
+}
+
+.holiday_img img {
+  width: 500px;
 }
 .holiday_img {
+  padding: 0 50px;
+  position: relative;
+  top: 120px;
+}
+
+.holiday_child_img {
   width: 351px;
   height: 352px;
-
+  background-image: url(image/Rectangle\ 1.png);
   background-size: 100%;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
 }
-.holiday_img img {
+.holiday_child_img img {
   width: 191px;
-  margin-right: 100px;
-}
-.holiday_section_areya_img img {
-  width: 400px;
+  position: relative;
+  right: 95px;
 }
 
 /*git areya styel*/
