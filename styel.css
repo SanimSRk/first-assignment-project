@@ -113,15 +113,6 @@
   margin-top: 20px;
 }
 
-.Join_btn {
-  font-size: 20px;
-  font-weight: 700px;
-  border: none;
-  color: #fff;
-  margin-top: 40px;
-  font-style: normal;
-  margin-left: 20px;
-}
 /*place section styel*/
 
 .place_content {
@@ -139,11 +130,208 @@
   color: #f00;
 }
 .join_button {
-  padding: 10px 30px;
+  padding: 12px 25px;
   border-radius: 8px;
   background-color: #f00;
   color: white;
   border: none;
   font-size: 18px;
   margin-top: 40px;
+}
+/*best offer section styel*/
+
+.offer_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.best_offer {
+  color: #f00;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.best_offer_titel {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 700px;
+  font-style: normal;
+}
+.best_offer_descoption {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(7, 2, 17, 0.6);
+  margin-top: 18px;
+  line-height: 26px;
+}
+
+.offer_titel {
+  width: 332px;
+}
+
+.offer_titel_2 img {
+  width: 295px;
+  height: 294px;
+  padding: 30px;
+  border: 10px solid #f00;
+  border-radius: 50%;
+}
+.offer_titel_3 img {
+  width: 115px;
+  margin-top: 20px;
+}
+
+.offer_titel_3 {
+  width: 226px;
+}
+.offer_titel_text {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  color: #f00;
+}
+
+/*holiday section steyel*/
+
+.holiday_section {
+  margin-bottom: 100px;
+}
+.holiday_titel_tex {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: #070211;
+}
+.holiday_header_titel {
+  font-size: 58px;
+  font-weight: 800px;
+  font-style: normal;
+}
+
+.holoday_color_text {
+  color: #f00;
+}
+.holiday_titel {
+  text-align: center;
+  padding: 0 218px;
+}
+.holiday_descoption {
+  font-size: 18px;
+  font-weight: 500px;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.holiday_img_areya {
+  display: flex;
+  background-image: url(image/Rectangle\ 1.png);
+  align-items: center;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+.holiday_img {
+  width: 351px;
+  height: 352px;
+
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+}
+.holiday_img img {
+  width: 191px;
+  margin-right: 100px;
+}
+.holiday_section_areya_img img {
+  width: 400px;
+}
+
+/*git areya styel*/
+
+.portfilo_titel_tex {
+  color: #f00;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.portfilo_titel {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 700px;
+  font-style: normal;
+}
+.portfilo_descoption {
+  font-size: 18px;
+  font-weight: 500px;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 28px;
+  margin-top: 20px;
+  width: 775px;
+  margin-bottom: 40px;
+}
+.portfilo_img_areya {
+  display: flex;
+  justify-content: space-between;
+}
+.portfilo_img_areya img {
+  width: 345px;
+}
+.portfilo_image {
+  margin-bottom: 20px;
+}
+.our_portfilo {
+  margin-bottom: 100px;
+}
+/*Subscribe areya styel*/
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin-bottom: 100px;
+}
+.Subscribe_areay {
+  text-align: center;
+  padding: 65px 182px;
+}
+.subscribe_titel {
+  font-size: 40px;
+  font-weight: 800px;
+  font-style: normal;
+  color: #070211;
+  margin-top: 33px;
+}
+.subscribe_descoption {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  font-style: normal;
+  color: rgba(7, 2, 17, 0.6);
+  margin-top: 18px;
+}
+.subscribe_input_areya {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.email_input {
+  height: 55px;
+  width: 360px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 40px 0 0 40px;
+  border: none;
+  outline: none;
+}
+.subscribe_button {
+  padding: 16px 46px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  border: none;
+  font-size: 16px;
 }
