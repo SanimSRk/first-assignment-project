@@ -335,3 +335,57 @@
   border: none;
   font-size: 16px;
 }
+
+/*footer areya styel */
+
+footer {
+  background-color: #070211;
+  padding: 100px 0;
+}
+.footer_section_titel {
+  margin-bottom: 40px;
+}
+.footer_descoptio {
+  font-size: 16px;
+  font-weight: 500px;
+  font-style: normal;
+  color: #fff;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.footer_descoptio img {
+  margin-right: 10px;
+}
+.footer_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_icon_img {
+  padding: 40px 0;
+  text-align: center;
+  border: 0.8px solid rgba(255, 255, 255, 0.15);
+  border-right: none;
+  border-left: none;
+}
+
+.footer_icon_areya img {
+  width: 45px;
+  height: 45px;
+  margin-right: 16px;
+}
+.footer_descoptio_text {
+  font-size: 18px;
+  font-weight: 500px;
+  font-style: normal;
+  color: #fff;
+}
+.footer_last_titel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
