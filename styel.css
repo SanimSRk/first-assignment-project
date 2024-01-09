@@ -263,7 +263,7 @@
   right: 95px;
 }
 
-/*git areya styel*/
+/*portfilo areya styel*/
 
 .portfilo_titel_tex {
   color: #f00;
@@ -299,6 +299,14 @@
 .our_portfilo {
   margin-bottom: 100px;
 }
+
+.portfilo_image img:hover {
+  cursor: pointer;
+  border: 3px solid #607274;
+  border-radius: 10px;
+  background-color: #607274;
+}
+
 /*Subscribe areya styel*/
 
 .subscribe {
@@ -358,6 +366,10 @@ footer {
 }
 .footer_section_titel {
   margin-bottom: 40px;
+}
+.footer_section_titel_right {
+  margin-bottom: 40px;
+  margin-right: 110px;
 }
 .footer_descoptio {
   font-size: 16px;
